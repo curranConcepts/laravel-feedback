@@ -16,7 +16,7 @@ class FeedbackController extends Controller
         );
     }
 
-    // Store feedback data 
+    // Store feedback data
     public function store(Request $request)
     {
         $formFields = $request->validate([
@@ -30,7 +30,7 @@ class FeedbackController extends Controller
         return redirect('/');
     }
 
-    // About page
+    // Get About page
     public function about()
     {
         return view('about');
