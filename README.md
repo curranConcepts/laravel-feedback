@@ -14,12 +14,12 @@
 ### ✨ [Demo](https://feedback2-0.fly.dev/)
 
  <p align="center">  
-     <img src="https://i.postimg.cc/3whTshb5/68747470733a2f2f696d61676575706c6f61642e696f2f69622f77594a31777238335966467176444e5f3136393732323532.png" width="50%" alt="Imitari"/>
+     <img src="https://i.postimg.cc/cHz1TMkD/feedback2-0.png"  alt="Imitari"/>
  </p>
 
 ## 🚀 Usage
 
-The application is free to use. just navigate to [Feedback](https://feedback2-0.fly.dev/) and leave some feedback for me!
+Navigate to [Feedback](https://feedback2-0.fly.dev/) and leave some feedback for me!
 
 ## Author
 
