@@ -27,7 +27,7 @@ class FeedbackController extends Controller
 
         Feedback::create($formFields);
 
-        return redirect('/');
+        return redirect('/')->with('message', 'Feedback submitted succesfully!');
     }
 
     // Get About page

@@ -17,22 +17,22 @@
                         @csrf
                         @error('name')
                             <p class="-red-600 -margin-top">{{$message}}</p>
-                        @enderror 
+                        @enderror
                         <label for="name" class="form-label">Name</label>
                         <input type="text" id="name" name="name" placeholder=" Enter your name">
-                        
+
                         @error('email')
                             <p class="-red-600 -margin-top">{{$message}}</p>
-                        @enderror 
+                        @enderror
                         <label for="email" class="form-label">Email</label>
                         <input type="email" id="email" name="email" placeholder=" Enter your email">
-                        
+
                         @error('body')
                             <p class="-red-600 -margin-top">{{$message}}</p>
-                        @enderror 
+                        @enderror
                         <label for="body" class="form-label">Feedback</label>
                         <textarea id="body" name="body" placeholder=" Enter your feedback" rows="4"></textarea>
-                        <input type="submit" name="submit" value="Send" class="card-footer button -full-width -align-center -colored"> 
+                        <input type="submit" name="submit" value="Send" class="card-footer button -full-width -align-center -colored">
                    </form>
                 </p>
             </div>
